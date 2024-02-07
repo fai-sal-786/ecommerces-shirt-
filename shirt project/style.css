@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  
+}
+nav {
+  height: 60px;
+  background-color: palevioletred;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav > img {
+  height: 40px;
+  width: 40px;
+  margin: 0px 5px;
+}
+
+nav > i {
+  font-size: 18px;
+  color: white;
+}
+nav > span {
+  color: white;
+}
+.catagories {
+  font-size: 18px;
+  color: white;
+  margin: 0px 5px;
+}
+
+.catagories:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+}
+.add_to_cart {
+  height: 60px;
+  width: 60px;
+  background-color: palevioletred;
+  border-radius: 30px;
+  display: flex;
+  justify-content: centre;
+  align-items: centre;
+  position: fixed;
+  bottom: 56px;
+}
+
+.add_to_cart > i {
+  font-size: 20px;
+  color: white;
+  margin: 23px 15px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.parent {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  width: 300px;
+  height: 380px;
+  border: 1px solid palevioletred;
+  border-radius: 8px;
+  margin: 5px 10px;
+  position: relative;
+  z-index: -1;
+}
+
+.box_img {
+  height: 220px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.box_title {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.box_desc {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.box > div {
+  padding: 10px;
+}
+
+.box_price {
+  background-color: palevioletred;
+  color: white;
+  padding: 3px 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.footercontainer{
+  background-color: rgb(44, 39, 39); 
+  color: white;
+  height: 310px;
+  width: 100%;
+  border-radius: 15px;
+  
+}
+
+.footerbottom{
+  margin: 0px auto;
+  
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 70%;
+}
+
+.socialicons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+  margin: 1px 0px;
+ 
+}
+
+.socialicons a:hover{
+  background-color: red;
+  color: white
+  transition: 0.5s;
+}
+
+.Nav  {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.Nav ul li{
+  list-style: none;
+  float : left;
+  margin: 40px 20px;
+}
+
+.Nav ul li a{
+  /* float: left; */
+}
+
+  
+h3{
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  color: rgb(236, 226, 226);
+  text-align: center;
+  margin: 100px 0px;
+
+}

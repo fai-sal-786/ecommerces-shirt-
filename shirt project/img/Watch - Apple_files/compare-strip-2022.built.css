@@ -1,0 +1,155 @@
+.section-shared-compare .compare-table p {
+	color: #000;
+}
+.section-shared-compare .compare-table span.text-light {
+	color: #6e6e73;
+}
+
+/* Localized Screens */
+/* S8 */
+/* .section-shared-compare .compare-item-s8.device .compare-item-image {
+	width: 216px;
+	height: 254px;
+	background-size: 216px 254px;
+	background-repeat: no-repeat;
+	background-image: url(/lae/watch/images/watch-shared-compare/compare_s8__c2cff9ld4e2q_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-shared-compare .compare-item-s8.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_s8__c2cff9ld4e2q_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-shared-compare .compare-item-s8.device .compare-item-image {
+		width: 173px;
+		height: 204px;
+		background-size: 173px 204px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_s8__c2cff9ld4e2q_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-s8.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_s8__c2cff9ld4e2q_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-shared-compare .compare-item-s8.device .compare-item-image {
+		width: 138px;
+		height: 162px;
+		background-size: 138px 162px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_s8__c2cff9ld4e2q_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-s8.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_s8__c2cff9ld4e2q_small_2x.jpg);
+	}
+} */
+
+/* SE */
+/* .section-shared-compare .compare-item-se.device .compare-item-image {
+	background-size: 216px 254px;
+	background-repeat: no-repeat;
+	background-image: url(/lae/watch/images/watch-shared-compare/compare_se__b3w7lpf3fahe_large.jpg);
+	width: 216px;
+	height: 254px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-shared-compare .compare-item-se.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_se__b3w7lpf3fahe_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-shared-compare .compare-item-se.device .compare-item-image {
+		width: 173px;
+		height: 204px;
+		background-size: 173px 204px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_se__b3w7lpf3fahe_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-se.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_se__b3w7lpf3fahe_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-shared-compare .compare-item-se.device .compare-item-image {
+		width: 138px;
+		height: 162px;
+		background-size: 138px 162px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_se__b3w7lpf3fahe_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-se.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_se__b3w7lpf3fahe_small_2x.jpg);
+	}
+} */
+
+/* Ultra */
+/* .section-shared-compare .compare-item-ultra.device .compare-item-image {
+	background-size: 216px 254px;
+	background-repeat: no-repeat;
+	background-image: url(/lae/watch/images/watch-shared-compare/compare_ultra__cbkn5sfvb0ya_large.jpg);
+	width: 216px;
+	height: 254px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_ultra__cbkn5sfvb0ya_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		width: 173px;
+		height: 204px;
+		background-size: 173px 204px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_ultra__cbkn5sfvb0ya_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_ultra__cbkn5sfvb0ya_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		width: 138px;
+		height: 162px;
+		background-size: 138px 162px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_ultra__cbkn5sfvb0ya_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/lae/watch/images/watch-shared-compare/compare_ultra__cbkn5sfvb0ya_small_2x.jpg);
+	}
+}
+ */

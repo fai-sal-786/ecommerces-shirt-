@@ -1,0 +1,437 @@
+/*Local Overrides*/
+
+/* Watch SE Tile */
+.section.section-se .tile.tile-se .tile-content .tile-cta-container {
+	margin-top: 0.8em;
+}
+
+/*Hero*/
+.section-series-9 .tile-series-9 .violator-secondary,
+.section-ultra .tile-ultra .violator-secondary,
+.section.section-se .tile.tile-se .violator-secondary {
+	margin-top: 20px;
+}
+
+/* tile airpods */
+.section-essentials .tile-full.tile-airpods .tile-content {
+	padding-top: 57px;
+}
+
+.tile-airpods {
+	margin-top: 0px;
+}
+
+@media only screen and (min-width: 1069px) {
+	.tile-airpods .image {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-essentials .tile-full.tile-airpods.order-updates .tile-content {
+		padding-top: 73px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.tile-airpods .image {
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.tile-full.tile-airpods .tile-content {
+		padding: 58px 0 36px;
+	}
+}
+
+/* tile health */
+@media only screen and (min-width: 1069px) {
+	.tile-health-app .tile-content {
+		padding-top: 80px;
+		padding-bottom: 56px;
+	}
+}
+
+/*Why watch tile*/
+@media only screen and (min-width: 1069px) {
+	.tile-why-watch .tile-image {
+		width: 673px !important;
+	}
+}
+
+/*Series "Learn More" CTA*/
+.section.section-models .tile-cta {
+	margin-left: 0;
+}
+
+.tile-cta-avail {
+	margin-top: 20px;
+}
+
+.section.section-se .tile-cta,
+.section.section-series-6 .tile-cta {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+/* compare */
+.section-shared-compare .feature-heart-rate {
+	margin-bottom: 20px;
+}
+
+.section-shared-compare .compare-item-series-3 .feature-water-resistant {
+	margin-top: unset;
+}
+
+.section-shared-compare .feature-gps-cellular {
+	margin-bottom: 20px;
+}
+
+.compare-strip .device > header {
+	border-bottom: 1px solid #d2d2d7;
+	padding: 0 0 26px;
+}
+
+.section-shared-compare .compare-table {
+	grid-template-areas:
+		"se-device s9-device ultra-device"
+		"se-case-size s9-case-size ultra-case-size"
+		"se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral"
+		"se-retina s9-retina ultra-retina"
+		"se-chip s9-chip ultra-chip"
+		"se-heart-rate s9-heart-rate ultra-heart-rate"
+		"se-temperature s9-temperature ultra-temperature"
+		"se-sos s9-sos ultra-sos"
+		"se-water-resistant s9-water-resistant ultra-water-resistant"
+		"se-gps-cellular s9-gps-cellular ultra-gps-cellular"
+		"se-battery s9-battery ultra-battery";
+}
+
+@media only screen and (max-width: 734px) {
+	.section-shared-compare .compare-table {
+		grid-template-areas:
+			"se-device s9-device"
+			"se-case-size s9-case-size"
+			"se-carbon-neutral s9-carbon-neutral"
+			"se-retina s9-retina"
+			"se-chip s9-chip"
+			"se-heart-rate s9-heart-rate"
+			"se-temperature s9-temperature"
+			"se-sos s9-sos"
+			"se-water-resistant s9-water-resistant"
+			"se-gps-cellular s9-gps-cellular"
+			"se-battery s9-battery"
+			"ultra-device ."
+			"ultra-case-size ."
+			"ultra-carbon-neutral ."
+			"ultra-retina ."
+			"ultra-chip ."
+			"ultra-heart-rate ."
+			"ultra-temperature ."
+			"ultra-sos ."
+			"ultra-water-resistant ."
+			"ultra-gps-cellular ."
+			"ultra-battery .";
+	}
+}
+
+/* Get More headline */
+
+@media only screen and (max-width: 1068px) {
+	.section-more .section-headline.order-updates {
+		padding-top: 34px;
+	}
+}
+
+/*Apple One*/
+
+.image-one {
+	background-image: url(/lae/watch/home/images/overview/one/tile_apple_one__59z41qljlj6y_large.jpg);
+	background-position-x: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.image-one {
+		background-image: url(/lae/watch/home/images/overview/one/tile_apple_one__59z41qljlj6y_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-one {
+		background-image: url(/lae/watch/home/images/overview/one/tile_apple_one__59z41qljlj6y_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-one {
+		background-image: url(/lae/watch/home/images/overview/one/tile_apple_one__59z41qljlj6y_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-one {
+		background-image: url(/lae/watch/home/images/overview/one/tile_apple_one__59z41qljlj6y_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-one {
+		background-image: url(/lae/watch/home/images/overview/one/tile_apple_one__59z41qljlj6y_small_2x.jpg);
+	}
+}
+
+/*Airpods*/
+.section-essentials .tile-airpods .image-airpods {
+	width: 100%;
+	background-position: center;
+	left: 0;
+	margin-left: 0;
+}
+
+@media only screen and (min-width: 735px) {
+	.section-essentials .tile-airpods .image-airpods {
+		background-size: contain;
+	}
+}
+
+.tile-airpods-engraving-update .tile-image {
+	width: 100%;
+}
+
+.tile-airpods .image-airpods {
+	background-image: url(/lae/watch/home/images/overview/airpods/airpods__cldonwj5wwya_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.tile-airpods .image-airpods {
+		background-image: url(/lae/watch/home/images/overview/airpods/airpods__cldonwj5wwya_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.tile-airpods .image-airpods {
+		width: 360px;
+		height: 282px;
+		background-size: 360px 282px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/home/images/overview/airpods/airpods__cldonwj5wwya_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.tile-airpods .image-airpods {
+		background-image: url(/lae/watch/home/images/overview/airpods/airpods__cldonwj5wwya_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.tile-airpods .image-airpods {
+		width: 414px;
+		height: 306px;
+		background-size: 414px 306px;
+		background-repeat: no-repeat;
+		background-image: url(/lae/watch/home/images/overview/airpods/airpods__cldonwj5wwya_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.tile-airpods .image-airpods {
+		background-image: url(/lae/watch/home/images/overview/airpods/airpods__cldonwj5wwya_small_2x.jpg);
+	}
+}
+
+/* watchos banner */
+.section-watchos-10
+	.section-content
+	.tile-watchos-10
+	.tile-image
+	.image-watchos-10 {
+	background-image: url(/lae/watch/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-watchos-10
+		.section-content
+		.tile-watchos-10
+		.tile-image
+		.image-watchos-10 {
+		background-image: url(/lae/watch/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-watchos-10
+		.section-content
+		.tile-watchos-10
+		.tile-image
+		.image-watchos-10 {
+		background-image: url(/lae/watch/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-watchos-10
+		.section-content
+		.tile-watchos-10
+		.tile-image
+		.image-watchos-10 {
+		background-image: url(/lae/watch/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-watchos-10
+		.section-content
+		.tile-watchos-10
+		.tile-image
+		.image-watchos-10 {
+		background-image: url(/lae/watch/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-watchos-10
+		.section-content
+		.tile-watchos-10
+		.tile-image
+		.image-watchos-10 {
+		background-image: url(/lae/watch/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_small_2x.jpg);
+	}
+}
+
+/* section-more headline margin */
+.section-more .section-headline {
+	margin-top: 37px;
+	margin-bottom: 36px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-more .section-headline {
+		margin-top: 0;
+		margin-bottom: 24px;
+	}
+}
+
+/* health app */
+/* .image-health-app {
+	width: 1035px;
+	height: 400px;
+	background-size: 1035px 400px;
+	background-image: url("/lae/watch/home/images/overview/health-app/tile_health__dqs63rn9j12e_large.jpg");
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.image-health-app {
+		background-image: url("/lae/watch/home/images/overview/health-app/tile_health__dqs63rn9j12e_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-health-app {
+		width: 483px;
+		height: 285px;
+		background-size: 483px 285px;
+		background-image: url("/lae/watch/home/images/overview/health-app/tile_health__dqs63rn9j12e_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-health-app {
+		background-image: url("/lae/watch/home/images/overview/health-app/tile_health__dqs63rn9j12e_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-health-app {
+		width: 291px;
+		height: 299px;
+		background-size: 291px 299px;
+		background-image: url("/lae/watch/home/images/overview/health-app/tile_health__dqs63rn9j12e_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-health-app {
+		background-image: url("/lae/watch/home/images/overview/health-app/tile_health__dqs63rn9j12e_small_2x.jpg");
+	}
+} */
+
+/*tile-apple-music*/
+@media only screen and (max-width: 734px) {
+	.tile-apple-music .tile-copy {
+		font-size: 17px;
+		line-height: 1.4705882353;
+		font-weight: 400;
+		letter-spacing: -0.022em;
+		font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+			sans-serif;
+	}
+}
+
+.tile-apple-music.fallback .music-gallery-item-container-wrapper {
+	margin-top: 40px;
+}
+
+/* Watch Series 9 Hero */
+
+@media only screen and (max-width: 414px) and (min-width: 370px) {
+	.section.section-series-9 .tile-headline.typography-custom-headline {
+		padding: 0 20px;
+	}
+}
+
+/* Violator Fix for non pricing state */
+
+.section-series-9 .tile-series-9 .violator-secondary {
+	margin-bottom: 0;
+}
+
+.section-ultra .tile-ultra .violator-secondary {
+	margin-bottom: 0;
+}
+
+.section-se .tile-se .violator-secondary {
+	margin-bottom: 0;
+}
+
+/* Dynamic pricing link */
+
+.sosumi-link-follows,
+.sosumi-link-follows ~ .footnote,
+.sosumi-link-follows ~ .product-addition {
+	display: none;
+}
+.sosumi-link-follows[data-pricing-loaded],
+.sosumi-link-follows[data-pricing-loaded] ~ .footnote,
+.sosumi-link-follows[data-pricing-loaded] ~ .product-addition {
+	display: inline;
+}
